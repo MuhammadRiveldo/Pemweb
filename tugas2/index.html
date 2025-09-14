@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITERA NEWS</title>
+</head>
+
+<!-- 
+    Struktur halaman ini sudah menggunakan elemen-elemen semantik HTML5
+    untuk memisahkan setiap bagian konten dengan jelas.
+    Mulai dari header, navigasi, konten utama, hingga footer.
+    Penggunaan heading (h1-h3) juga dibuat terstruktur.
+-->
+
+<body style="background-color: #f9f9f9; color: #222; font-family: Arial, sans-serif; margin: 0;">
+    <!-- Bagian Header: Berisi judul utama (h1) dan logo situs. Ini adalah kepala dari halaman web. -->
+    <header style="background-color: #680aff; color: white; padding: 20px; text-align: center;">
+        <img src="images/logo.png" alt="Logo ITERA" style="height: 80px; display: block; margin: 0 auto;">
+        <h1>INFORMATIKA NEWS</h1>
+        <p><i>Portal Berita Informatika Institut Teknologi Sumatera</i></p>
+    </header>
+
+    <!-- Bagian Navigasi (nav): Kumpulan link untuk berpindah antar bagian halaman. -->
+    <nav style="background-color: #333; padding: 10px; text-align: center;">
+        <a href="#beranda" style="color: white; text-decoration: none; padding: 10px 15px;">Beranda</a>
+        <a href="#berita" style="color: white; text-decoration: none; padding: 10px 15px;">Berita</a>
+        <a href="#prestasi" style="color: white; text-decoration: none; padding: 10px 15px;">Prestasi</a>
+        <a href="#kontak" style="color: white; text-decoration: none; padding: 10px 15px;">Kontak</a>
+    </nav>
+
+    <!-- Bagian Main: Konten utama dari halaman ini, membungkus semua bagian penting seperti berita dan prestasi. -->
+    <main>
+        <!-- Penggunaan Table untuk Layout: Halaman ini menggunakan tabel untuk membagi layout utama menjadi dua kolom, 
+             yaitu area konten utama (75%) dan sidebar (25%). -->
+        <table style="width: 100%; border-spacing: 0;">
+            <tr style="vertical-align: top;">
+                <td style="width: 75%; padding-right: 20px;">
+                    <!-- Section: Setiap bagian konten yang logis (seperti Beranda, Berita, Prestasi) dibungkus dalam tag <section>. -->
+                    <section id="beranda" style="padding: 20px;">
+                        <!-- Heading Terstruktur: Judul setiap section menggunakan h2, yang merupakan sub-heading dari h1 di header. -->
+                        <h2>Selamat Datang di Portal Berita Informatika ITERA</h2>
+                        <p>Menyajikan informasi dan berita terkini seputar kegiatan akademik, kemahasiswaan, dan prestasi program studi teknik informatika di Institut Teknologi Sumatera.</p>
+                    </section>
+
+                    <section id="berita" style="padding: 20px; background-color: #eee;">
+                        <h2>Berita Terbaru</h2>
+                        <!-- Table untuk Konten: Tabel juga dipakai di sini untuk merapikan tampilan beberapa artikel berita agar sejajar. -->
+                        <table style="width: 100%; border-spacing: 15px; border-collapse: separate;">
+                            <tr style="vertical-align: top;">
+                                <td style="width: 33.33%;">
+                                    <!-- Article: Setiap item berita atau prestasi merupakan konten mandiri, sehingga dibungkus dengan tag <article>. -->
+                                    <article>
+                                        <img src="images/itera/berita1.jpg" alt="Peresmian Gedung Baru" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+                                        <header>
+                                            <h3>Dosen Teknik Informatika ITERA, Hafiz Budi Firmansyah, Ph.D., Menjadi Wakil Indonesia di Konferensi Internasional MISNC 2025 Spanyol</h3>
+                                            <p><small>Ditulis oleh Tim Humas | 11 September 2025</small></p>
+                                        </header>
+                                        <p>
+                                            Salah satu dosen dari Program Studi Teknik Informatika Institut Teknologi Sumatera (ITERA), Hafiz Budi Firmansyah, Ph.D., berhasil mengharumkan nama almamater di kancah internasional. Beliau terpilih menjadi salah satu pemakalah yang mewakili Indonesia dalam ajang bergengsi, Multidisciplinary International Social Networks Conference (MISNC) 2025, yang diselenggarakan di Spanyol.
+                                        </p>
+                                        <footer>
+                                            <p><i>Kategori: Perkembangan Teknologi, Akademik</i></p>
+                                        </footer>
+                                    </article>
+                                </td>
+                                <td style="width: 33.33%;">
+                                    <article>
+                                        <img src="images/itera/berita2.jpg" alt="Wisuda ITERA" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+                                        <header>
+                                            <h3>Sah! Prodi Teknik Informatika ITERA Raih Akreditasi “Baik Sekali” dari LAM INFOKOM</h3>
+                                            <p><small>Ditulis oleh Tim Humas | 25 Desember 2024</small></p>
+                                        </header>
+                                        <p>
+                                            Lampung Selatan, 20 Desember 2024 – Program Studi Teknik Informatika Institut Teknologi Sumatera (ITERA) mencatatkan pencapaian membanggakan dengan memperoleh akreditasi “Baik Sekali” dari Lembaga Akreditasi Mandiri Informatika dan Komputer (LAM INFOKOM). Akreditasi ini berlaku hingga 11 Desember 2029, menandai langkah besar dalam upaya peningkatan mutu pendidikan di lingkungan ITERA.
+                                        </p>
+                                        <footer>
+                                            <p><i>Kategori: Akademik, Kemahasiswaan, Profil Prodi</i></p>
+                                        </footer>
+                                    </article>
+                                </td>
+                                <td style="width: 33.33%;">
+                                    <article>
+                                        <img src="images/itera/berita3.jpg" alt="Pengabdian Masyarakat" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+                                        <header>
+                                            <h3>Informatika ITERA Lepas 58 Wisudawan dalam Wisuda ITERA Ke-20</h3>
+                                            <p><small>Ditulis oleh Tim Humas | 14 November 2024</small></p>
+                                        </header>
+                                        <p>
+                                            Lampung Selatan – Institut Teknologi Sumatera (ITERA) kembali menggelar acara wisuda ke-20 yang berlangsung pada Sabtu, 9 November 2024. Acara yang penuh haru dan kebanggaan ini dihadiri oleh para wisudawan beserta keluarga, dosen, dan jajaran rektorat. Sebanyak 58 mahasiswa dari Program Studi Teknik Informatika resmi diwisuda, menandai pencapaian akademis mereka setelah menempuh proses pembelajaran yang intensif.
+                                        </p>
+                                        <footer>
+                                            <p><i>Kategori: Kemahasiswaan, Akademik</i></p>
+                                        </footer>
+                                    </article>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+
+                    <section id="prestasi" style="padding: 20px;">
+                        <h2>Prestasi Mahasiswa</h2>
+                        <table style="width: 100%; border-spacing: 15px; border-collapse: separate;">
+                            <tr style="vertical-align: top;">
+                                <td style="width: 50%;">
+                                    <article>
+                                        <header>
+                                            <h3>Pencapaian Mahasiswa Teknik Informatika ITERA di Tingkat Nasional: Juara AI-NOVAC 2024</h3>
+                                            <p><small>Oleh Tim Humas | 25 September 2024</small></p>
+                                        </header>
+                                        <p>
+                                            Seluruh Civitas Akademika Program Studi Teknik Informatika Institut Teknologi Sumatera (ITERA) mengucapkan selamat dan apresiasi yang sebesar-besarnya kepada tim mahasiswa yang telah mengukir prestasi luar biasa di ajang Artificial Intelligence Innovation and Application Competition (AI-NOVAC) 2024 Tingkat Nasional.
+                                        </p>
+                                        <footer>
+                                            <p><i>Kategori: Akademik, Penelitian</i></p>
+                                        </footer>
+                                    </article>
+                                </td>
+                                <td style="width: 50%;">
+                                    <article>
+                                        <header>
+                                            <h3>Mahasiswa Teknik Informatika ITERA Raih Juara 3 dalam Lomba Cerdas Cermat Otoritas Jasa Keuangan (OJK)</h3>
+                                            <p><small>Oleh Tim Humas | 24 September 2024</small></p>
+                                        </header>
+                                        <p>
+                                            Prestasi membanggakan kembali diraih oleh mahasiswa Institut Teknologi Sumatera (ITERA) dari Program Studi Teknik Informatika. Tim yang terdiri dari Zakwan Afif R. (IF ’22), Tiya Sounia (SA), dan Ignasia Dara (SA ’22) berhasil meraih Juara 3 dalam ajang bergengsi Lomba Cerdas Cermat yang diselenggarakan oleh Otoritas Jasa Keuangan (OJK)
+                                        </p>
+                                        <footer>
+                                            <p><i>Kategori: Kompetisi</i></p>
+                                        </footer>
+                                    </article>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+
+                    <section id="kontak" style="padding: 20px; background-color: #eee;">
+                        <h2>Kontak Kami</h2>
+                        <p>Untuk informasi lebih lanjut, silakan hubungi kami melalui:</p>
+                        <p><strong>Email:</strong> informatika@itera.ac.id</p>
+                        <p><strong>Telepon:</strong> (0721) 8030188</p>
+                    </section>
+                </td>
+                <!-- Bagian Aside: Konten tambahan atau sampingan yang relevan dengan konten utama, seperti daftar prodi dan agenda. -->
+                <td style="width: 25%; padding: 20px; background-color: #f0f0f0;">
+                    <aside>
+                        <h2>Profil</h2>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Sejarah</li>
+                            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Visi-Misi</li>
+                            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Staff</li>
+                            <li style="padding: 5px 0; border-bottom: 1px solid #ddd;">Vidio Profil</li>
+                            <li style="padding: 5px 0;">RoadMap Penelitian</li>
+                        </ul>
+                        <hr>
+                        <h2>Akademik</h2>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 5px 0;">Tugas Akhir</li>
+                            <li style="padding: 5px 0;">Jadwal Kuliah</li>
+                            <li style="padding: 5px 0;">Siakad</li>
+                            <li style="padding: 5px 0;">E-Learning</li>
+                        </ul>
+                    </aside>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <!-- Bagian Footer: Kaki dari halaman web, biasanya berisi info hak cipta atau kontak. -->
+    <footer style="background-color: #333; color: white; padding: 10px; text-align: center;"></footer>
+        <p>&copy; Copyright 2020 - Program Studi Teknik Informatika | Theme: HamroClass by Themecentury.</p>
+    </footer>
+</body>
+</html>
